@@ -28,6 +28,12 @@ jobs:
           touch build/.nojekyll
       - name: Run widoco
         uses: docker://ghcr.io/fusion-jena/ontology-docs-deployer:main
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: |
+            .
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
