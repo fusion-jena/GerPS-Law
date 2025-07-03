@@ -6,13 +6,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://w3id.org/gerps/ontology/law> rdf:type owl:Ontology ;
-                                           dct:abstract "Diese Ontologie stellt deutsche Gesetze und Vorschriften im RDF-Format dar, abgeleitet von www.gesetze-im-internet.de/. Sie umfasst Konzepte für Normen, Absätze, Abschnitte und Nummern, wobei tatsächliche Links als Identifikatoren verwendet werden."@de ,
+<https://w3id.org/gerps/ontology/law> a owl:Ontology ;
+                                           dcterms:abstract "Diese Ontologie stellt deutsche Gesetze und Vorschriften im RDF-Format dar, abgeleitet von www.gesetze-im-internet.de/. Sie umfasst Konzepte für Normen, Absätze, Abschnitte und Nummern, wobei tatsächliche Links als Identifikatoren verwendet werden."@de ,
                                                         "This ontology represents German laws and regulations in RDF format, derived from www.gesetze-im-internet.de/. It includes concepts for norms, paragraphs, sections, and numbers, using actual links as identifiers."@en ;
-                                           dct:contributor "Sirko Schindler" ;
-                                           dct:creator "openDVA" ;
-                                           dct:license <http://creativecommons.org/licenses/by/4.0/> ;
-                                           dct:title "GerPS-Law"@en ,
+                                           dcterms:contributor "Sirko Schindler" ;
+                                           dcterms:creator "openDVA" ;
+                                           dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+                                           dcterms:title "GerPS-Law"@en ,
                                                      "GerPS-Law"@de .
 
 <algiiv_2008> a dcat:Resource ;
